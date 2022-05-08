@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*----------Configurações da Página----------*/
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+p {
+    text-align: justify;
+    font-size: 17px;
+}
+
+img {
+    width: 200px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+abbr {
+    cursor: help;
+}
+
+/*----------Estilizando a Página----------*/
+body {
+    background-image: linear-gradient(to bottom, #0CF574, #15E6CD);
+}
+
+main {
+    background-color: #ffffff;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #10b6a3d8;
+    
+}
+
+h1 {
+    color: #15E6CD;
+    text-align: center;
+    text-shadow: 1px 1px 2px #00000093;
+}
+
+.html {
+    color: #E44D26;
+    text-shadow: 1px 1px 2px #00000060;
+}
+
+.css {
+    color: #379AD6;
+    text-shadow: 1px 1px 2px #00000060 ;
+}
+
+.js {
+    color: #F8DC3D;
+    text-shadow: 1px 1px 2px #00000060;
+}
